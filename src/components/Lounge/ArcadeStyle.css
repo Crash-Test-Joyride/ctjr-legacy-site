@@ -1,0 +1,15 @@
+.animateJump {
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump{
+    0%{bottom: 100px;}
+    30%{bottom: 200px;}
+    70%{bottom: 200px;}
+    100%{top: 100px;}
+}
+
+@keyframes obstacle{
+    0%{left: 500px}
+    100%{left: -20px}
+}
